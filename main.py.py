@@ -95,7 +95,7 @@ def csv_to_sql(csv_file_path, table_name='#'):    # make sure that u enterd a fi
         return f"Error: {str(e)}"
 
 def main():
-    csv_file =    # HERE u can change your path Of sample_data.csv 
+    csv_file =  r"C:\Users\Tahseen Ashrafi\Downloads\CSV\Sample_data.csv"  # HERE u can change your path Of sample_data.csv 
     table_name = '#'  # Here u can give name of table 
     
     sql_statements = csv_to_sql(csv_file, table_name)
