@@ -1,5 +1,6 @@
 # CSV-to-SQL-converter-Python
 
+A Python script that converts a CSV file into SQL `CREATE TABLE` and `INSERT` statements, making it easy to import CSV data into a database. It sanitizes column names, infers SQL data types, handles empty values, and allows saving the output to a `.sql` file.
 
 ---
 
